@@ -1,4 +1,12 @@
-db_schema: {}
-native_deps: {head_html: "\n<style>\n  .anvil-panel-section-container { padding: 0\
-    \ 15px; }\n</style>\n"}
-runtime_options: {client_version: '3', version: 2, server_spec: null, server_version: python2-full}
+allow_embedding: false
+package_name: M3_App_1
+name: M3 App 1
+startup_form: Form1
+renamed: true
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+dependencies: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
