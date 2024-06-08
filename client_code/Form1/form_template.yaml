@@ -12,3 +12,35 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {slot: left-nav}
+  components:
+  - name: linear_panel_1
+    properties: {}
+    type: LinearPanel
+    layout_properties: {grid_position: 'VXMEIS,SZUGQL'}
+    components:
+    - name: label_1
+      properties: {text: 'Home
+
+          '}
+      type: Label
+      layout_properties: {}
+    - name: label_2
+      properties: {text: Menu}
+      type: Label
+      layout_properties: {}
+    - name: label_3
+      properties: {text: Account}
+      type: Label
+      layout_properties: {}
+    - name: label_4
+      properties: {text: Logout}
+      type: Label
+      layout_properties: {}
+- name: label_5
+  properties: {text: Wiwasolvet Sandbox App}
+  type: Label
+  layout_properties: {slot: title}
