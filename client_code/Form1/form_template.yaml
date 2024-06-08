@@ -25,19 +25,19 @@ components:
     - name: label_1
       properties: {text: 'Home
 
-          '}
+          ', icon: 'fa:home'}
       type: Label
       layout_properties: {}
     - name: label_2
-      properties: {text: Menu}
+      properties: {text: Menu, icon: 'fa:bars'}
       type: Label
       layout_properties: {}
     - name: label_3
-      properties: {text: Account}
+      properties: {text: Account, icon: 'fa:user-circle-o'}
       type: Label
       layout_properties: {}
     - name: label_4
-      properties: {text: Logout}
+      properties: {text: Logout, icon: 'fa:sign-out'}
       type: Label
       layout_properties: {}
 - name: label_5
